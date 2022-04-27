@@ -1,5 +1,5 @@
-!include "nrtype.f90"
-!include "nrutil.f90"
+include "nrtype.f90"
+include "nrutil.f90"
 include "spline_mod.f90"
 
 program rand_dist 
