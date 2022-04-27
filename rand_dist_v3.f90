@@ -4,8 +4,8 @@
 
 ! This module is useful for generating random numbers which follows any kind of arbitrary 
 ! probability distribution function (pdf)
-! Initiate the random generator by first calling the init_generator subroutine, the given
-! pdf should be named as 'xs_dist.txt', gen_randist subroutine then generated random numbers
+! Initiate the random generator by first calling the init_generator subroutine with the pdf
+! data file as input, calling gen_randist subroutine will then generate random numbers
 ! the main program should always end with stop_generator subroutine
 ! Author: Abhijit Baishya
 ! Date: 27.04.2022
