@@ -3,11 +3,14 @@ Written using object oriented FORTRAN
 
 Generate random numbers following uniform, normal as well as any arbitrary probability distribution function
 class methods:
-i) subroutine uni(randomNumber, lowerLimit, upperLimit): Generate uniformly distributed random number (integer,real or double precision) or number array, lower and upper limits are optional and if not given will generate numbers between 0 and 1
-ii) subroutine normal(randomNumber, mean, sigma): Generate normally distributed random number (integer,real or double precision) or number array
-iii) subroutine sphere(theta, phi): Generate uniformly distributed polar angles (array also possible) inside a sphere
-Distribution function has to be given via a file
-iv) subroutine rndm(randomNumber): Generate arbitrarily distributed (distribution has to be provided) random number (integer,real or double precision) or number array; two helper subroutines are required for this, 1. subroutine init(filename) and subroutine finish() 
+
+i) subroutine uni(randomNumber, lowerLimit, upperLimit): Generate uniformly distributed random number (integer, real or double precision) or randomNumber array, lower and upper limits are optional and if not given will generate numbers between 0 and 1
+
+ii) subroutine normal(randomNumber, mean, sigma): Generate normally distributed random number (integer, real or double precision) or randomNumber array
+
+iii) subroutine sphere(theta, phi): Generate uniformly distributed polar angles (array also possible) inside a sphere 
+
+iv) subroutine rndm(randomNumber): Generate arbitrarily distributed (distribution has to be provided via a file) random number (integer, real or double precision) or randomNumber array; two helper subroutines are required for this, 1. subroutine init(filename) and subroutine finish() 
 
 gfortran compiler is needed.
 
